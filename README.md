@@ -1,2 +1,2 @@
 # pythonwebserver
-To be used as reference.
+Python webserver
