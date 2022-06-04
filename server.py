@@ -20,7 +20,6 @@ ADDR = (SERVER, PORT)
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0)
 server.bind(ADDR)
-# server = context.wrap_socket(server, server_side=True)
 
 def readLine(buf, conn):
     while True:
