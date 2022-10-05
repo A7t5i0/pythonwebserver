@@ -15,7 +15,7 @@ context.load_cert_chain('cert.pem', 'key.pem', password=None)
 PORT = 5000
 
 # SERVER = socket.gethostbyname(socket.gethostname())
-SERVER = "192.168.1.166"
+SERVER = "127.0.0.1"
 ADDR = (SERVER, PORT)
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0)
